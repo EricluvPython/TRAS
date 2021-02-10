@@ -53,3 +53,6 @@ where [FILENAME] can be one of the following three: ```reset.py```, ```recogniti
 ```summary.py``` does an Natural Language Processing (NLP) on the ```history.txt```, and provide you with a wordcloud image that you could use to remind yourself of the content of the class, and a ```YYMMDD_HHMMSS.txt``` file in folder ```results``` named based on the time you run the program. In this file, there will be the top 8 key words of your class, and the content of the speech heard.
 
 A suggested sequence of using the three files are: before you start a meeting, run ```reset.py```. Then, run ```recognition.py```. When your meeting ends, stop ```recognition.py``` by pressing ```ctrl+c``` in terminal. If you want to obtain a summary of the class, run ```summary.py``` and save the image that shows on your screen or go to results folder and find the record for the class.
+
+## But I Need Help!
+If you have any problems regarding the program, you are welcomed to email me at 2025066613@QQ.com!
