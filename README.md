@@ -45,6 +45,9 @@ After that, you can execute our python files using the command
 python [FILENAME]
 ```
 where [FILENAME] can be one of the following three: ```reset.py```, ```recognition.py```, or ```summary.py```.
+
 ```reset.py``` clears all history data in the folders ```record``` and ```results```.
+
 ```recognition.py``` starts recording your voice, recognize it using Baiducloud API (means needs internet connection), and show you the results on the screen. The results are temporarily saved to ```history.txt``` in ```record``` folder. The ```history.txt``` file is cleared everytime you run this program.
+
 ```summary.py``` does an Natural Language Processing (NLP) on the ```history.txt```, and provide you with a wordcloud image that you could use to remind yourself of the content of the class, and a ```YYMMDD_HHMMSS.txt``` file in folder ```results``` named based on the time you run the program. In this file, there will be the top 8 key words of your class, and the content of the speech heard.
