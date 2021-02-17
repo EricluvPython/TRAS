@@ -2,46 +2,49 @@
 
 ## How to Install the Program
 MAC:
-1. Download and install python 3.8 from this link from the python official website: 
+1. Download python 3.8
+Download and install python 3.8 from this link from the python official website: 
     https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg
 
-2. Go to the website https://sourceforge.net/projects/git-osx-installer/ and install ```git```
+2. Install ```git```
+Go to the website https://sourceforge.net/projects/git-osx-installer/ and install ```git```
 
-3. Go to terminal, copy paste and enter the following command to clone this repository
-```
-git clone https://github.com/EricluvPython/2020zion.git
-```
-
-4. Go to terminal, copy paste and enter the following command to download and install ```pip```
+3. Install ```pip```
+Go to terminal, copy paste and enter the following command to download and install ```pip```
 ```
 sudo easy_install pip
 ```
-after you entered this command, type in your login password and press enter.
 
-5. Go to terminal, copy paste and enter the following command
+4. Install ```homebrew```
+Go to terminal, copy paste and enter the following command
 ```
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
-on the first input, enter ```1```; on the second input, enter your password.
+on the first input, enter ```1```
 
-6. Go to terminal, copy paste and enter the following command
+5. Install ```portaudio```
+Go to terminal, copy paste and enter the following command
 ```
 brew install portaudio
 ```
 
-7. Go to terminal, copy paste and enter the following command
-```
-sudo pip3 install virtualenv
-```
-then enter the command ```which python3``` and copy the returned path
-then enthr the command ```sudo virtualenv -p [PATH] py3env``` where ```[PATH]``` is obtained from last step
-then enter the command ```source py3env/bin/activate```
-Now you have successfully turned your default download position of ```pip``` to python3!
+6. Change the default package download python version for ```pip``` from python2 to python3
+Go to terminal, copy paste and enter the following command ```sudo pip3 install virtualenv```
+Then enter the command ```which python3``` and copy the returned path
+Then enter the command ```sudo virtualenv -p [PATH] py3env``` where ```[PATH]``` is obtained from last step
+Then enter the command ```source py3env/bin/activate```
 
-5. Go to terminal, copy paste and enter the following command
+7. Download python packages
+Go to terminal, copy paste and enter the following command
 ```
-pip install jieba wordcloud requests SpeechRecognition wxpython
+sudo pip install jieba wordcloud requests SpeechRecognition wxpython pyaudio
 ```
+
+8. Go to terminal, copy paste and enter the following command to clone this repository
+```
+git clone https://github.com/EricluvPython/2020zion.git
+```
+
 NOW, you have downloaded and installed this!
 
 ## How to Use the program?
