@@ -16,19 +16,7 @@ pip install jieba wordcloud requests SpeechRecognition wxpython
 ```
 if anything goes wrong (such as reporting errors in red font), contact me.
 
-4. When steps 1-3 are successfully done, go to terminal, copy paste and enter the following commands
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-if it reports ```Connection Refused``` error, try this alternative:
-```
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-```
-If either one of them worked, then
-```
-brew install git
-```
-if anything goes wrong, try adding ```sudo``` before each command and then press enter.
+4. When steps 1-3 are successfully done, go to the website https://sourceforge.net/projects/git-osx-installer/ and install ```git```
 
 5. Go to terminal, copy paste and enter the following command to clone this repository
 ```
