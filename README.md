@@ -1,6 +1,6 @@
 # 2020zion
 
-## How to Download and Install
+## How to Install the Program
 MAC:
 1. Download and install python 3.8 from this link from the python official website: 
     https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg
