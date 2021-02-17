@@ -1,6 +1,6 @@
-# 2020zion User's Guide
+# 2020zion README
 
-## How to Install the Program
+## How to Install the Program?
 NOTE: if you already satisfy some of the requirements, you do not have to redo the steps.
 
 Operating system: ```MacOS```
@@ -11,62 +11,69 @@ Python packages: ```jieba```, ```wordcloud```, ```requests```, ```SpeechRecognit
 
 1. Download ```Python 3.8```
 
-Download and install python 3.8 from this link from the python official website: 
+    Download and install python 3.8 from this link from the python official website: 
     https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg
-(it's probably ok as long as you have python 3.0+)
+    (it's probably ok as long as you have python 3.0+)
 
 2. Install ```git```
 
-Go to the website https://sourceforge.net/projects/git-osx-installer/ and install ```git```
+    Go to the website https://sourceforge.net/projects/git-osx-installer/ and install ```git```
 
 3. Install ```pip```
 
-Go to terminal, copy paste and enter the following command to download and install ```pip```
-```
-sudo easy_install pip
-```
+    Go to terminal, copy paste and enter the following command to download and install ```pip```
+    ```
+    sudo easy_install pip
+    ```
 
 4. Install ```homebrew```
 
-Go to terminal, copy paste and enter the following command
-```
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-```
-on the first input, enter ```1```
+    Go to terminal, copy paste and enter one of the following commands:
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+    
+    if things doesn't work out for the first one, try the following one:
+    ```
+    /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+    ```
+    on the first input, enter ```1```
 
 5. Install ```portaudio```
 
-Go to terminal, copy paste and enter the following command
-```
-brew install portaudio
-```
+    Go to terminal, copy paste and enter the following command
+    ```
+    brew install portaudio
+    ```
 
 6. Change the default package download python version for ```pip``` from python2 to python3
 
-Go to terminal, copy paste and enter the following command ```sudo pip3 install virtualenv```
+    Go to terminal, copy paste and enter the following command ```sudo pip3 install virtualenv```
 
-Then enter the command ```which python3``` and copy the returned path
+    Then enter the command ```which python3``` and copy the returned path
 
-Then enter the command ```sudo virtualenv -p [PATH] py3env``` where ```[PATH]``` is obtained from last step
+    Then enter the command ```sudo virtualenv -p [PATH] py3env``` where ```[PATH]``` is obtained from last step
 
-Then enter the command ```source py3env/bin/activate```
+    Then enter the command ```source py3env/bin/activate```
 
 7. Download python packages
 
-Go to terminal, copy paste and enter the following command
-```
-sudo pip install jieba wordcloud requests SpeechRecognition wxpython pyaudio
-```
+    Go to terminal, copy paste and enter the following command
+    ```
+    sudo pip install jieba wordcloud requests SpeechRecognition wxpython pyaudio
+    ```
 
 8. Go to terminal, copy paste and enter the following command to clone this repository
-```
-git clone https://github.com/EricluvPython/2020zion.git
-```
+    ```
+    git clone https://github.com/EricluvPython/2020zion.git
+    ```
 
-NOW, you have downloaded and installed this!
+CONGRATULATIONS! Now you're ready to go!
 
 ## How to Use the program?
-the procedures are still finished in terminal
+
+the following procedures are finished in ```terminal```
+
 First, copy paste and enter the following commands
 ```
 cd
@@ -86,5 +93,5 @@ where [FILENAME] can be one of the following three: ```reset.py```, ```recogniti
 
 A suggested sequence of using the three files are: before you start a meeting, run ```reset.py```. Then, run ```recognition.py```. When your meeting ends, stop ```recognition.py``` by pressing ```ctrl+c``` in terminal. If you want to obtain a summary of the class, run ```summary.py``` and save the image that shows on your screen or go to results folder and find the record for the class.
 
-## But I Need Help!
+## Any Questions, Suggestions, or Any Other Thoughts
 If you have any problems regarding the program, you are welcomed to email me at 2025066613@QQ.com!
