@@ -66,7 +66,7 @@ cd 2020zion
 ```
 After that, you can execute our python files using the command
 ```
-python [FILENAME]
+python3 [FILENAME]
 ```
 where [FILENAME] can be one of the following three: ```reset.py```, ```recognition.py```, or ```summary.py```.
 
