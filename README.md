@@ -20,7 +20,11 @@ if anything goes wrong (such as reporting errors in red font), contact me.
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-and then
+if it reports ```Connection Refused``` error, try this alternative:
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+If either one of them worked, then
 ```
 brew install git
 ```
