@@ -2,8 +2,11 @@
 
 ## How to Install the Program
 NOTE: if you already satisfy some of the requirements, you do not have to redo the steps.
+
 Operating system: ```MacOS```
+
 Python version: ```Python 3.8```
+
 Python packages: ```jieba```, ```wordcloud```, ```requests```, ```SpeechRecognition```, ```wxpython```, ```pyaudio```
 
 1. Download ```Python 3.8```
