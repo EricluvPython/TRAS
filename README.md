@@ -1,11 +1,12 @@
-# 2020zion
-
+# 2020zion User's Guide
+NOTE: if you already satisfy some of the requirements, you do not have to redo the steps.
 ## How to Install the Program
 MAC:
-1. Download python 3.8
+1. Download ```Python 3.8```
 
 Download and install python 3.8 from this link from the python official website: 
     https://www.python.org/ftp/python/3.8.0/python-3.8.0-macosx10.9.pkg
+(it's probably ok as long as you have python 3.0+)
 
 2. Install ```git```
 
