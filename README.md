@@ -1,4 +1,4 @@
-# 2020zion README
+# TRAS README
 
 ## How to Install the Program?
 NOTE: if you already satisfy some of the requirements, you do not have to redo the steps.
@@ -77,7 +77,7 @@ the following procedures are finished in ```terminal```
 First, copy paste and enter the following commands
 ```
 cd
-cd 2020zion
+cd TRAS
 ```
 After that, you can execute our python files using the command
 ```
