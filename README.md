@@ -65,7 +65,7 @@ Python packages: ```jieba```, ```wordcloud```, ```requests```, ```SpeechRecognit
 
 8. Go to terminal, copy paste and enter the following command to clone this repository
     ```
-    git clone https://github.com/EricluvPython/2020zion.git
+    git clone https://github.com/EricluvPython/TRAS.git
     ```
 
 CONGRATULATIONS! Now you're ready to go!
